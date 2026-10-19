@@ -1,0 +1,19 @@
+# Datos descargados por los notebooks
+data_nfl/
+data_laliga/
+espn_cache/
+notebooks/data_nfl/
+notebooks/data_laliga/
+notebooks/espn_cache/
+notebooks/espn_api/espn_cache/
+*.parquet
+
+# Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Sistema
+.DS_Store
