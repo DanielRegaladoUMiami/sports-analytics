@@ -113,6 +113,14 @@ y métodos para quitar el margen, Kelly fraccional, CLV y tamaño de muestra, y 
 ejecutar en Kalshi, Polymarket y sportsbooks. Las notas por tema están en
 [`docs/research/notas/`](docs/research/notas). Cada dato marca si se verificó en la fuente primaria.
 
+## Playbook de LINEMAKER SPORTS
+
+[`docs/linemaker-playbook/`](docs/linemaker-playbook/index.md) resume los 414 videos del canal
+de YouTube LINEMAKER SPORTS. Cada regla que da el canal se agrupó en 48 hipótesis que se pueden
+probar contra el mercado, con lectura previa y plan de prueba, más temas, cómo cambió su método
+de 2020 a 2026 y en qué se contradice. Cada referencia enlaza al video en YouTube. Las notas por
+video y los transcripts se quedan en local y no se publican.
+
 ## Cómo funciona
 
 * **El mercado como benchmark.** Cada análisis compara contra la línea o cuota de cierre, no contra el porcentaje de aciertos.
@@ -136,6 +144,7 @@ sports-analytics/
 ├── predicciones/          # probabilidades previas a cada jornada, para medir calibración
 ├── docs/img/              # gráficos del README
 ├── docs/research/         # investigación de respaldo y notas por tema
+├── docs/linemaker-playbook/  # hipótesis y síntesis del canal LINEMAKER SPORTS
 ├── pyproject.toml
 ├── requirements.txt
 └── LICENSE
