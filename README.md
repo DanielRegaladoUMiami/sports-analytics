@@ -104,6 +104,15 @@ Los dos notebooks de EDA están ejecutados: los gráficos y tablas se ven direct
 Cada sección explica el concepto antes del código y cierra con lo que dice la data y qué
 implica para el modelo.
 
+## Investigación de respaldo
+
+[`docs/research/respaldo_estadistico_apuestas.md`](docs/research/respaldo_estadistico_apuestas.md)
+reúne la base matemática y estadística detrás de este EDA, con fórmulas y fuentes: modelos
+de marcador (Poisson, Dixon-Coles, normal de Stern con números clave), eficiencia del mercado
+y métodos para quitar el margen, Kelly fraccional, CLV y tamaño de muestra, y los costos de
+ejecutar en Kalshi, Polymarket y sportsbooks. Las notas por tema están en
+[`docs/research/notas/`](docs/research/notas). Cada dato marca si se verificó en la fuente primaria.
+
 ## Cómo funciona
 
 * **El mercado como benchmark.** Cada análisis compara contra la línea o cuota de cierre, no contra el porcentaje de aciertos.
@@ -126,6 +135,7 @@ sports-analytics/
 │       └── espn_soccer_explorer.ipynb
 ├── predicciones/          # probabilidades previas a cada jornada, para medir calibración
 ├── docs/img/              # gráficos del README
+├── docs/research/         # investigación de respaldo y notas por tema
 ├── pyproject.toml
 ├── requirements.txt
 └── LICENSE
